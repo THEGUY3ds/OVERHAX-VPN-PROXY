@@ -1,5 +1,7 @@
 function FindProxyForURL (url, ghost)
 {
+	alert("	Hello world");
+	
 	var host = ghost.toLowerCase();
 
         // Determine offload condition
