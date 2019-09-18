@@ -24,7 +24,6 @@ function FindProxyForURL (url, ghost)
               var value = domainlist[i];
               if ( shExpMatch(host, value) )
               {
-		 alert("hello worrld");    
                  return "PROXY 50.203.239.30:80";
               }
            }
@@ -41,6 +40,5 @@ function FindProxyForURL (url, ghost)
 
 
 	// Send all other request at Proxy
-	alert("hello worrld");
 	return "PROXY 50.203.239.30:80";
 }
