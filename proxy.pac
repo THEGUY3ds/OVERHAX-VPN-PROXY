@@ -1,6 +1,7 @@
+alert("hello worrld");
+
 function FindProxyForURL (url, ghost)
 {
-	alert("	Hello world");
 	
 	var host = ghost.toLowerCase();
 
